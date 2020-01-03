@@ -1,7 +1,3 @@
-//
-// Created by mike on 03/07/18.
-//
-
 #ifndef SIMPLEAPP_SIMPLE_IO_MANAGER_H
 #define SIMPLEAPP_SIMPLE_IO_MANAGER_H
 
@@ -23,10 +19,11 @@ class SimpleIOManager : public laser::core::IOManager {
     SimpleReader simple_reader;
     SimpleParser simple_parser;
     std::string latest_output;
+    bool is_output_enabled;
 
   public:
     explicit SimpleIOManager(std::string const &stream_path,
-                  std::string const &output_path);
+                  std::string const &output_path, bool is_output_enabled);
 
     ~SimpleIOManager() override = default;
 

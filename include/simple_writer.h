@@ -1,7 +1,3 @@
-//
-// Created by mike on 03/07/18.
-//
-
 #ifndef SIMPLEAPP_SIMPLE_WRITER_H
 #define SIMPLEAPP_SIMPLE_WRITER_H
 

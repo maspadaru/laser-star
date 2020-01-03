@@ -1,6 +1,3 @@
-// Created by mike on 03/07/18.
-//
-
 #include "simple_writer.h"
 
 SimpleWriter::SimpleWriter(std::string const &output_path) {
