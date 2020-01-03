@@ -11,8 +11,7 @@ Clang 6.0.0)
 
 In the same root directory clone both 
 [STAR](https://github.com/maspadaru/laser-star) 
-and  
-[Laser++](https://github.com/karmaresearch/laser-plus-plus). 
+and [Laser++](https://github.com/karmaresearch/laser-plus-plus). 
 
 Use the *star.sh* script to build *STAR* and run diferent programs. 
 See *samples.sh* script for examples.
