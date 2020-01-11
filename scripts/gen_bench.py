@@ -8,7 +8,7 @@ The generated tuples are printed to stdin, separated by a new line character.
 In order to generate a file useful for benchmarking, redirect this output to 
 a file.
 Example use:
-    python gen.py > input.txt
+    python gen_bench.py > input.txt
 '''
 
 import random
@@ -56,7 +56,7 @@ def gen_stream(end_time, fact_flow, num_pred, arity):
 
 def main():
     if (len(sys.argv) < 5):
-        print ('Usage: python gen.py end_time fact_flow num_pred arity')
+        print ('Usage: python gen_bench.py end_time fact_flow num_pred arity')
     else:
         # TODO check sizes argv[2] < 8, etc
         gen_stream(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4]))

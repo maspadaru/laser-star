@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # input streams generated using:
-# scripts/all_gen.sh
+# scripts/all_gen_bench.sh
 
 # ============================================================================
 ./star.sh b

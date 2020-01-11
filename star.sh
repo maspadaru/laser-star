@@ -24,9 +24,9 @@ print_help () {
     echo "r: Run STAR"
     echo "c: Clean project"
     echo "h: Print help"
-    echo " "
     echo " Option [r] requires additional arguments:"
     echo " chase_algorithm=(S/R) stream_file_path [output_file_path]"
+    echo " "
 
 }
 
