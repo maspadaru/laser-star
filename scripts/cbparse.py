@@ -82,7 +82,7 @@ class Dependency:
         return rule
 
     def _parse_line(self, line):
-        line = line.rstrip().replace('.','').replace('?','').replace(' ','')
+        line = line.replace('.','').replace('?','').replace(' ','')
         line_list = line.split('->') 
         body = line_list[0]
         head = line_list[1]
@@ -117,10 +117,13 @@ def parse_tgds(win_size, percent_box, percent_diam, dir_path):
             full_path = "%s%s" % (dir_path, filename)
             with open(full_path) as openfileobject:
                 for line in openfileobject:
-                    dependency = Dependency(line)
-                    dependencies.append(dependency)
+                    line = line.rstrip()
+                    if line:    
+                        dependency = Dependency(line)
+                        dependencies.append(dependency)
     '''
-       TODO: randomly add window box or window diamond
+       TODO: add window box or window diamond
+       TODO: add event variables 
     '''
     for dependency in dependencies:
         print(dependency)

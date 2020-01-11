@@ -4,5 +4,5 @@
 ./star.sh b
 # ============================================================================
 
-./star.sh r O ../cbscenarios-star/deep/100/dependencies/deep_100.star ../cbscenarios-star/deep/100/data/deep.stream 
+./star.sh r R ../cbscenarios-star/deep/100/dependencies/program.star ../cbscenarios-star/deep/100/data/input.stream 
 
