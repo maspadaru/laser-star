@@ -11,10 +11,12 @@ def print_help():
     print ('    S: parse chasebench data dir - Source Instance')
     print ('        Arguments: timeline_size')
     print ('    T: parse chasebench dependecies dir - TGDs')
-    print ('        Arguments: window_size percent_box percent_diamond')
+    print ('        Arguments: window_size percent_box percent_diamond '\
+            'percent_event')
     print (' ')
     print ('Example: python cbparse.py D 1000 chasebench/scenarios/deep/100/data > out.stream')
-    print ('Example: python cbparse.py T 3 20 50 chasebench/scenarios/deep/100/dependencies > out.laser')
+    print ('Example: python cbparse.py T 3 20 60 50 '\
+            ' chasebench/scenarios/deep/100/dependencies > out.laser')
     print (' ')
 
 
