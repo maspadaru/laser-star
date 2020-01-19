@@ -38,15 +38,20 @@ class Fact:
 
 def parse_fact_csv(filename, dir_path):
     # each file is a fact: <predicate>.csv
+    result = []
     predicate = filename.replace(".csv","")
+    predicate = predicate.replace('_','')
     full_path = "%s%s" % (dir_path, filename)
-    data_file = open(full_path)
-    # each file contains a single line
-    line = data_file.readline()
-    # Eliminating tailing new line. Removing "" around string vlaues.
-    values = line.rstrip().replace('"','').split(',')
-    fact = Fact(predicate, values)
-    return fact
+    with open(full_path) as openfileobject:
+        for line in openfileobject:
+            line = line.rstrip()
+            if line:    
+                line = line.replace('_','').replace('"','')
+                values = line.split(',')
+                # Eliminating tailing new line. Removing "" around string vlaues.
+                fact = Fact(predicate, values)
+                result.append(fact)
+    return result 
 
 
 def print_source(timeline_size, source_instance):
@@ -65,8 +70,8 @@ def parse_source(timeline_size, dir_path):
     source_instance = []
     for filename in os.listdir(dir_path):
         if filename.endswith(".csv"): 
-            fact = parse_fact_csv(filename, dir_path)
-            source_instance.append(fact)
+            fact_list = parse_fact_csv(filename, dir_path)
+            source_instance.extend(fact_list)
     return source_instance
 
 
@@ -90,7 +95,7 @@ class Dependency:
 
 
     def _parse_line(self, line):
-        line = line.replace('.','').replace('?','').replace(' ','')
+        line = line.replace('.','').replace('?','').replace(' ','').replace('_','')
         line_list = line.split('->') 
         body = line_list[0]
         head = line_list[1]

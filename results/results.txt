@@ -1,0 +1,74 @@
+===============================================================================
+1. VS Skolem
+===============================================================================
+
+TIME=20
+WINDOW=4
+BOX=50
+DIAMOND=50
+EVENT=50
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 69.7235 seconds
+Throughput: 286.847 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 112.163 seconds
+Throughput: 178.311 facts / second 
+************************************************************
+
+===============================================================================
+2. Events
+===============================================================================
+
+STAR --- 20 4 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 60.5783 seconds
+Throughput: 330.151 facts / second 
+************************************************************
+
+STAR --- 20 4 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 114.136 seconds
+Throughput: 175.229 facts / second 
+
+===============================================================================
+3. Diamond vs Box
+===============================================================================
+
+STAR --- 20 4 100 0 50
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 7.56543 seconds
+Throughput: 2643.6 facts / second 
+************************************************************
+
+STAR --- 20 4 0 100 50
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 204.637 seconds
+Throughput: 97.734 facts / second 
+************************************************************
+

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-TIME=5
-WINDOW=3
-BOX=50
-DIAMOND=50
-EVENT=100
+TIME=$1
+WINDOW=$2
+BOX=$3
+DIAMOND=$4
+EVENT=$5
 
 
 # === Deep ===
@@ -25,6 +25,17 @@ mkdir -p ../../cbscenarios-star/deep/300/data/
 mkdir -p ../../cbscenarios-star/deep/300/dependencies/
 python cbparse.py S $TIME ../../chasebench/scenarios/deep/300/data/ > ../../cbscenarios-star/deep/300/data/input.stream
 python cbparse.py T $WINDOW $BOX $DIAMOND $EVENT ../../chasebench/scenarios/deep/300/dependencies/ > ../../cbscenarios-star/deep/300/dependencies/program.star
+
+# === LUBM ==
+
+mkdir -p ../../cbscenarios-star/LUBM/data/001/
+#mkdir -p ../../cbscenarios-star/LUBM/data/010/
+#mkdir -p ../../cbscenarios-star/LUBM/data/100/
+mkdir -p ../../cbscenarios-star/LUBM/dependencies/
+python cbparse.py S $TIME ../../chasebench/scenarios/LUBM/data/001/ > ../../cbscenarios-star/LUBM/data/001/input.stream
+#python cbparse.py S $TIME ../../chasebench/scenarios/LUBM/data/010/ > ../../cbscenarios-star/LUBM/data/010/input.stream
+#python cbparse.py S $TIME ../../chasebench/scenarios/LUBM/data/100/ > ../../cbscenarios-star/LUBM/data/100/input.stream
+python cbparse.py T $WINDOW $BOX $DIAMOND $EVENT ../../chasebench/scenarios/LUBM/dependencies/ > ../../cbscenarios-star/LUBM/dependencies/program.star
 
 
 # === Correctnes scenarios ===

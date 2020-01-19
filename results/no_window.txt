@@ -1,0 +1,53 @@
+TIME=1
+WINDOW=0
+BOX=0
+DIAMOND=0
+EVENT=0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 20585
+Time: 0.690513 seconds
+Throughput: 1448.2 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 20324
+Time: 0.725399 seconds
+Throughput: 1378.55 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/LUBM/dependencies/program.star
+Input: ../cbscenarios-star/LUBM/data/001/input.stream
+Chase: S
+Input size: 100543
+Number of Steps: 16
+Total Conclusions: 375863
+Time: 11.9426 seconds
+Throughput: 8418.89 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/LUBM/dependencies/program.star
+Input: ../cbscenarios-star/LUBM/data/001/input.stream
+Chase: R
+Input size: 100543
+Number of Steps: 16
+Total Conclusions: 314070
+Time: 154.42 seconds
+Throughput: 651.099 facts / second 
+************************************************************
+
