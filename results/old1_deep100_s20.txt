@@ -13,8 +13,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: S
-Time: 11.7912 seconds
-Throughput: 1696.18 facts / second 
+Time: 11.5625 seconds
+Throughput: 1729.73 facts / second 
 ************************************************************
 
 STAR --- 20 3 50 50 0
@@ -23,8 +23,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: S
-Time: 12.8972 seconds
-Throughput: 1550.73 facts / second 
+Time: 12.946 seconds
+Throughput: 1544.87 facts / second 
 ************************************************************
 
 STAR --- 20 5 50 50 0
@@ -33,18 +33,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: S
-Time: 13.6376 seconds
-Throughput: 1466.54 facts / second 
-************************************************************
-
-STAR --- 20 10 50 50 0
-
-STAR - Semantic Time-Aware Reasoner powered by LASER++ 
-Program: ../cbscenarios-star/deep/100/dependencies/program.star
-Input: ../cbscenarios-star/deep/100/data/input.stream
-Chase: S
-Time: 14.5731 seconds
-Throughput: 1372.39 facts / second 
+Time: 13.3812 seconds
+Throughput: 1494.64 facts / second 
 ************************************************************
 
 STAR --- 20 1 50 50 100
@@ -53,8 +43,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: S
-Time: 18.8334 seconds
-Throughput: 1061.94 facts / second 
+Time: 18.4681 seconds
+Throughput: 1082.95 facts / second 
 ************************************************************
 
 STAR --- 20 3 50 50 100
@@ -63,8 +53,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: S
-Time: 20.0253 seconds
-Throughput: 998.739 facts / second 
+Time: 19.6785 seconds
+Throughput: 1016.34 facts / second 
 ************************************************************
 
 STAR --- 20 5 50 50 100
@@ -73,18 +63,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: S
-Time: 20.7581 seconds
-Throughput: 963.481 facts / second 
-************************************************************
-
-STAR --- 20 10 50 50 100
-
-STAR - Semantic Time-Aware Reasoner powered by LASER++ 
-Program: ../cbscenarios-star/deep/100/dependencies/program.star
-Input: ../cbscenarios-star/deep/100/data/input.stream
-Chase: S
-Time: 21.4109 seconds
-Throughput: 934.103 facts / second 
+Time: 20.4265 seconds
+Throughput: 979.119 facts / second 
 ************************************************************
 
  
@@ -98,8 +78,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 9.1293 seconds
-Throughput: 2190.75 facts / second 
+Time: 9.25637 seconds
+Throughput: 2160.67 facts / second 
 ************************************************************
 
 STAR --- 20 3 50 50 0
@@ -108,8 +88,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 9.66913 seconds
-Throughput: 2068.44 facts / second 
+Time: 9.65782 seconds
+Throughput: 2070.86 facts / second 
 ************************************************************
 
 STAR --- 20 5 50 50 0
@@ -118,18 +98,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 11.8049 seconds
-Throughput: 1694.21 facts / second 
-************************************************************
-
-STAR --- 20 10 50 50 0
-
-STAR - Semantic Time-Aware Reasoner powered by LASER++ 
-Program: ../cbscenarios-star/deep/100/dependencies/program.star
-Input: ../cbscenarios-star/deep/100/data/input.stream
-Chase: R
-Time: 18.5208 seconds
-Throughput: 1079.87 facts / second 
+Time: 11.7895 seconds
+Throughput: 1696.42 facts / second 
 ************************************************************
 
 STAR --- 20 1 50 50 100
@@ -138,8 +108,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 36.6878 seconds
-Throughput: 545.14 facts / second 
+Time: 36.2443 seconds
+Throughput: 551.811 facts / second 
 ************************************************************
 
 STAR --- 20 3 50 50 100
@@ -148,8 +118,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 46.5169 seconds
-Throughput: 429.951 facts / second 
+Time: 46.9407 seconds
+Throughput: 426.069 facts / second 
 ************************************************************
 
 STAR --- 20 5 50 50 100
@@ -158,18 +128,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 56.9593 seconds
-Throughput: 351.128 facts / second 
-************************************************************
-
-STAR --- 20 10 50 50 100
-
-STAR - Semantic Time-Aware Reasoner powered by LASER++ 
-Program: ../cbscenarios-star/deep/100/dependencies/program.star
-Input: ../cbscenarios-star/deep/100/data/input.stream
-Chase: R
-Time: 77.6267 seconds
-Throughput: 257.643 facts / second 
+Time: 56.9291 seconds
+Throughput: 351.314 facts / second 
 ************************************************************
 
  
@@ -183,8 +143,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 24.5015 seconds
-Throughput: 816.278 facts / second 
+Time: 24.543 seconds
+Throughput: 814.897 facts / second 
 ************************************************************
 
 STAR --- 20 3 100 0 100
@@ -193,8 +153,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 24.5184 seconds
-Throughput: 815.714 facts / second 
+Time: 24.205 seconds
+Throughput: 826.275 facts / second 
 ************************************************************
 
 STAR --- 20 5 100 0 100
@@ -203,18 +163,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 24.5007 seconds
-Throughput: 816.303 facts / second 
-************************************************************
-
-STAR --- 20 10 100 0 100
-
-STAR - Semantic Time-Aware Reasoner powered by LASER++ 
-Program: ../cbscenarios-star/deep/100/dependencies/program.star
-Input: ../cbscenarios-star/deep/100/data/input.stream
-Chase: R
-Time: 24.1884 seconds
-Throughput: 826.843 facts / second 
+Time: 24.5564 seconds
+Throughput: 814.451 facts / second 
 ************************************************************
 
 STAR --- 20 1 0 100 100
@@ -223,8 +173,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 34.6511 seconds
-Throughput: 577.182 facts / second 
+Time: 34.6366 seconds
+Throughput: 577.424 facts / second 
 ************************************************************
 
 STAR --- 20 3 0 100 100
@@ -233,8 +183,8 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 53.042 seconds
-Throughput: 377.06 facts / second 
+Time: 52.5581 seconds
+Throughput: 380.532 facts / second 
 ************************************************************
 
 STAR --- 20 5 0 100 100
@@ -243,17 +193,7 @@ STAR - Semantic Time-Aware Reasoner powered by LASER++
 Program: ../cbscenarios-star/deep/100/dependencies/program.star
 Input: ../cbscenarios-star/deep/100/data/input.stream
 Chase: R
-Time: 69.1445 seconds
-Throughput: 289.249 facts / second 
-************************************************************
-
-STAR --- 20 10 0 100 100
-
-STAR - Semantic Time-Aware Reasoner powered by LASER++ 
-Program: ../cbscenarios-star/deep/100/dependencies/program.star
-Input: ../cbscenarios-star/deep/100/data/input.stream
-Chase: R
-Time: 110.481 seconds
-Throughput: 181.026 facts / second 
+Time: 69.3553 seconds
+Throughput: 288.37 facts / second 
 ************************************************************
 
