@@ -1,0 +1,124 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mike/work/laser/star/cmake-build-release/star-build
+[100%] Built target star
+STAR --- 100 1 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 229.246 seconds
+Throughput: 436.212 facts / second 
+************************************************************
+
+STAR --- 100 1 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 57.8055 seconds
+Throughput: 1729.94 facts / second 
+************************************************************
+
+STAR --- 100 3 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 435.465 seconds
+Throughput: 229.64 facts / second 
+************************************************************
+
+STAR --- 100 3 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 75.309 seconds
+Throughput: 1327.86 facts / second 
+************************************************************
+
+STAR --- 100 5 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 693.485 seconds
+Throughput: 144.199 facts / second 
+************************************************************
+
+STAR --- 100 5 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 105.392 seconds
+Throughput: 948.842 facts / second 
+************************************************************
+
+STAR --- 100 1 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 134.148 seconds
+Throughput: 745.445 facts / second 
+************************************************************
+
+STAR --- 100 1 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 84.0472 seconds
+Throughput: 1189.81 facts / second 
+************************************************************
+
+STAR --- 100 3 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 285.758 seconds
+Throughput: 349.947 facts / second 
+************************************************************
+
+STAR --- 100 3 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 174.669 seconds
+Throughput: 572.513 facts / second 
+************************************************************
+
+STAR --- 100 5 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 474.2 seconds
+Throughput: 210.881 facts / second 
+************************************************************
+
+STAR --- 100 5 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 286.266 seconds
+Throughput: 349.325 facts / second 
+************************************************************
+
