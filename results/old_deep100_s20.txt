@@ -1,0 +1,124 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mike/work/laser/star/cmake-build-release/star-build
+[100%] Built target star
+STAR --- 20 1 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 43.4283 seconds
+Throughput: 460.529 facts / second 
+************************************************************
+
+STAR --- 20 1 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 12.1141 seconds
+Throughput: 1650.97 facts / second 
+************************************************************
+
+STAR --- 20 3 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 76.4584 seconds
+Throughput: 261.58 facts / second 
+************************************************************
+
+STAR --- 20 3 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 17.0429 seconds
+Throughput: 1173.51 facts / second 
+************************************************************
+
+STAR --- 20 5 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 113.262 seconds
+Throughput: 176.582 facts / second 
+************************************************************
+
+STAR --- 20 5 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 25.9081 seconds
+Throughput: 771.96 facts / second 
+************************************************************
+
+STAR --- 20 1 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 26.0253 seconds
+Throughput: 768.483 facts / second 
+************************************************************
+
+STAR --- 20 1 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 16.416 seconds
+Throughput: 1218.32 facts / second 
+************************************************************
+
+STAR --- 20 3 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 51.3517 seconds
+Throughput: 389.471 facts / second 
+************************************************************
+
+STAR --- 20 3 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 32.3014 seconds
+Throughput: 619.169 facts / second 
+************************************************************
+
+STAR --- 20 5 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 79.8513 seconds
+Throughput: 250.465 facts / second 
+************************************************************
+
+STAR --- 20 5 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: S
+Time: 51.1903 seconds
+Throughput: 390.699 facts / second 
+************************************************************
+
