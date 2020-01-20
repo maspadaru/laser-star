@@ -216,13 +216,20 @@ class DependencyParser:
 
 
     def _add_events(self, dependencies):
-        number_existential_tgds = self._count_existential_tgds(dependencies)
-        number_event = (number_existential_tgds * self._percent_event) / 100
-        for dependency in dependencies:
-            if number_event > 0 and dependency.is_existential:
-                # dependency.add_event()
-                dependency.add_all_events()
-                number_event -= 1
+        if self._percent_event == 50:
+            counter = 0
+            for dependency in dependencies:
+                counter += 1
+                if counter % 2 == 0 and dependency.is_existential:
+                    dependency.add_all_events()
+        else:
+            number_existential_tgds = self._count_existential_tgds(dependencies)
+            number_event = (number_existential_tgds * self._percent_event) / 100
+            for dependency in dependencies:
+                if number_event > 0 and dependency.is_existential:
+                    # dependency.add_event()
+                    dependency.add_all_events()
+                    number_event -= 1
 
 
     def _mutate_list(self, dependencies):
