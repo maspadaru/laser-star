@@ -86,32 +86,32 @@ echo " ===================== BOX VS DIAMOND ========================= "
 echo " "
 echo " "
 
-PARAM="20 1 100 0 50"
+PARAM="20 1 100 0 100"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
 
-PARAM="20 3 100 0 50"
+PARAM="20 3 100 0 100"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
 
-PARAM="20 5 100 0 50"
+PARAM="20 5 100 0 100"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
 
-PARAM="20 1 0 100 50"
+PARAM="20 1 0 100 100"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
 
-PARAM="20 3 0 100 50"
+PARAM="20 3 0 100 100"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
 
-PARAM="20 5 0 100 50"
+PARAM="20 5 0 100 100"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
