@@ -13,12 +13,12 @@ echo " ===================== VS VLog ========================= "
 echo " "
 echo " "
 
-PARAM="3 1 50 50 0"
+PARAM="3 3 50 50 0"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
 
-PARAM="3 1 50 50 50"
+PARAM="3 3 50 50 50"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT

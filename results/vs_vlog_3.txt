@@ -1,0 +1,51 @@
+ ===================== rules-w3-noevents.txt ========================= 
+ 
+ 
+[0xa813691473c1c5a5 2020-01-21 17:26:21] INFO  Parsing EDB configuration edb.conf
+[0xa813691473c1c5a5 2020-01-21 17:26:21] INFO  Read program from file rules-w3-noevents.txt
+[0xa813691473c1c5a5 2020-01-21 17:26:22] INFO  The program might not terminate due to existential rules ...
+[0xa813691473c1c5a5 2020-01-21 17:26:22] INFO  Starting full materialization
+[0xa813691473c1c5a5 2020-01-21 17:26:26] INFO  Runtime materialization = 4578.249809 milliseconds
+[0xa813691473c1c5a5 2020-01-21 17:26:26] INFO  Total # derivations: 101281
+[0xa813691473c1c5a5 2020-01-21 17:26:26] INFO  Runtime = 4716.214410 milliseconds
+[0xa813691473c1c5a5 2020-01-21 17:26:26] INFO  Max memory used: 164.839844 MB
+ 
+ 
+ ===================== rules-w3.txt ========================= 
+ 
+ 
+[0x3282912c7bbfb636 2020-01-21 17:26:26] INFO  Parsing EDB configuration edb.conf
+[0x3282912c7bbfb636 2020-01-21 17:26:26] INFO  Read program from file rules-w3.txt
+[0x3282912c7bbfb636 2020-01-21 17:26:26] INFO  The program might not terminate due to existential rules ...
+[0x3282912c7bbfb636 2020-01-21 17:26:28] INFO  Starting full materialization
+[0x3282912c7bbfb636 2020-01-21 17:30:22] INFO  Runtime materialization = 233758.308801 milliseconds
+[0x3282912c7bbfb636 2020-01-21 17:30:22] INFO  Total # derivations: 3615169
+[0x3282912c7bbfb636 2020-01-21 17:30:22] INFO  Runtime = 236230.749068 milliseconds
+[0x3282912c7bbfb636 2020-01-21 17:30:22] INFO  Max memory used: 1047.734375 MB
+ ===================== VS VLog ========================= 
+ 
+ 
+STAR --- 3 3 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 2.25063 seconds
+Min Time: 0.701651 seconds
+Max Time: 0.767948 seconds
+Throughput: 1332.96 facts / second 
+************************************************************
+
+STAR --- 3 3 50 50 50
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 3.1016 seconds
+Min Time: 0.770395 seconds
+Max Time: 1.18708 seconds
+Throughput: 967.243 facts / second 
+************************************************************
+
