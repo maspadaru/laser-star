@@ -2,6 +2,7 @@
 #include <iostream>
 #include <sstream>
 #include <string>
+#include <limits>
 
 #include <core/reasoner.h>
 #include <rule/rule_parser.h>
@@ -37,7 +38,17 @@ void run(laser::util::ChaseAlgorithm chase_algorithm,
     auto total_facts = reasoner.get_total_facts_read();
     double total_ms = clock_elapsed.count();
     double throughput = (total_facts * 1.0) / (total_ms / 1000);
+    auto runtimes = reasoner.get_runtimes();
+    double min_time = std::numeric_limits<double>::max();
+    double max_time = 0;
+    for (auto time : runtimes) {
+        min_time = time < min_time ? time : min_time;
+        max_time = time > max_time ? time : max_time;
+
+    }
     std::cout << "Time: " << total_ms / 1000 << " seconds" << std::endl;
+    std::cout << "Min Time: " << min_time << " seconds" << std::endl;
+    std::cout << "Max Time: " << max_time << " seconds" << std::endl;
     std::cout << "Throughput: " << throughput << " facts / second " << std::endl;
     std::cout << "************************************************************"
               << std::endl;
