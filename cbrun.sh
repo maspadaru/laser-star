@@ -7,21 +7,31 @@
 PROGRAM="../cbscenarios-star/deep/100/dependencies/program.star"
 INPUT="../cbscenarios-star/deep/100/data/input.stream"
 
-echo " "
-echo " "
-echo " ===================== VS VLog ========================= "
-echo " "
-echo " "
-
-PARAM="3 3 50 50 0"
+PARAM="20 5 100 0 100"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
 
-PARAM="3 3 50 50 50"
+PARAM="20 5 0 100 100"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
+
+#echo " "
+#echo " "
+#echo " ===================== VS VLog ========================= "
+#echo " "
+#echo " "
+
+#PARAM="3 3 50 50 0"
+#echo "STAR --- $PARAM"
+#scripts/cbconvert.sh $PARAM
+#./star.sh r R $PROGRAM $INPUT
+
+#PARAM="3 3 50 50 50"
+#echo "STAR --- $PARAM"
+#scripts/cbconvert.sh $PARAM
+#./star.sh r R $PROGRAM $INPUT
 
 #PARAM="7 3 50 50 50"
 #echo "STAR --- $PARAM"

@@ -52,7 +52,7 @@ def gen_stream(end_time, fact_flow, num_pred, arity):
             vect = gen_const_vect(pred_id, arity)
             var = ' '.join(vect)
             print("%s %s" % (pred, var))
-        print(" ")
+        print("")
 
 def main():
     if (len(sys.argv) < 5):

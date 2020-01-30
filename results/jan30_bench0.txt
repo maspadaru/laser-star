@@ -1,0 +1,59 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mike/work/laser/star/cmake-build-release/star-build
+[100%] Built target star
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: extra/problem_w32.star
+Input: ../data/stream_1k_1k_2_2.txt
+Chase: O
+Time: 31.2929 seconds
+Min Time: 0.00668528 seconds; timepoint = 0
+Max Time: 0.0342522 seconds; timepoint = 994
+Throughput: 31956.2 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: extra/atom.star
+Input: ../data/stream_1k_1k_1_2.txt
+Chase: O
+Time: 2.08465 seconds
+Min Time: 0.00129865 seconds; timepoint = 0
+Max Time: 0.00191739 seconds; timepoint = 1
+Throughput: 479698 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: extra/box_w32.star
+Input: ../data/stream_1k_1k_1_2.txt
+Chase: O
+Time: 3.64763 seconds
+Min Time: 0.00224705 seconds; timepoint = 0
+Max Time: 0.00385052 seconds; timepoint = 53
+Throughput: 274151 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: extra/diamond_w32.star
+Input: ../data/stream_1k_1k_1_2.txt
+Chase: O
+Time: 33.4854 seconds
+Min Time: 0.00195728 seconds; timepoint = 0
+Max Time: 0.0345833 seconds; timepoint = 817
+Throughput: 29863.8 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: extra/conjunction.star
+Input: ../data/stream_10_100k_2_2.txt
+Chase: O
+Time: 4.55507 seconds
+Min Time: 0.297507 seconds; timepoint = 0
+Max Time: 0.416908 seconds; timepoint = 7
+Throughput: 219536 facts / second 
+************************************************************
+

@@ -1,8 +1,8 @@
 #include <fstream>
 #include <iostream>
+#include <limits>
 #include <sstream>
 #include <string>
-#include <limits>
 
 #include <core/reasoner.h>
 #include <rule/rule_parser.h>
@@ -41,15 +41,27 @@ void run(laser::util::ChaseAlgorithm chase_algorithm,
     auto runtimes = reasoner.get_runtimes();
     double min_time = std::numeric_limits<double>::max();
     double max_time = 0;
+    int min_i = 0;
+    int max_i = 0;
+    int i = 0;
     for (auto time : runtimes) {
-        min_time = time < min_time ? time : min_time;
-        max_time = time > max_time ? time : max_time;
-
+        if (time < min_time) {
+            min_time = time;
+            min_i = i;
+        }
+        if (time > max_time) {
+            max_time = time;
+            max_i = i;
+        }
+        i++;
     }
     std::cout << "Time: " << total_ms / 1000 << " seconds" << std::endl;
-    std::cout << "Min Time: " << min_time << " seconds" << std::endl;
-    std::cout << "Max Time: " << max_time << " seconds" << std::endl;
-    std::cout << "Throughput: " << throughput << " facts / second " << std::endl;
+    std::cout << "Min Time: " << min_time << " seconds; "
+              << "timepoint = " << min_i << std::endl;
+    std::cout << "Max Time: " << max_time << " seconds; "
+              << "timepoint = " << max_i << std::endl;
+    std::cout << "Throughput: " << throughput << " facts / second "
+              << std::endl;
     std::cout << "************************************************************"
               << std::endl;
     std::cout << std::endl;
@@ -76,13 +88,12 @@ int main(int argc, char **argv) {
         chase_algorithm = laser::util::ChaseAlgorithm::SKOLEM;
     } else if (chase_algorithm_str == "R") {
         chase_algorithm = laser::util::ChaseAlgorithm::RESTRICTED;
-    } else if (chase_algorithm_str == "I") {
-        chase_algorithm = laser::util::ChaseAlgorithm::INDEXED;
     }
     std::string const &rules = read_program(program_path);
 
     std::cout << std::endl;
-    std::cout << "STAR - Semantic Time-Aware Reasoner powered by LASER++ " << std::endl;
+    std::cout << "STAR - Semantic Time-Aware Reasoner powered by LASER++ "
+              << std::endl;
     std::cout << "Program: " << program_path << std::endl;
     std::cout << "Input: " << stream_path << std::endl;
     std::cout << "Chase: " << chase_algorithm_str << std::endl;
