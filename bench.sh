@@ -10,12 +10,32 @@
 # 1 Laser - Laser++ Window Size 
 #./star.sh r O extra/problem_w08.star ../data/stream_1k_1k_2_2.txt 
 #./star.sh r O extra/problem_w16.star ../data/stream_1k_1k_2_2.txt 
-./star.sh r O extra/problem_w32.star ../data/stream_1k_1k_2_2.txt
+#./star.sh r O extra/problem_w32.star ../data/stream_1k_1k_2_2.txt
 #./star.sh r O extra/problem_w64.star ../data/stream_1k_1k_2_2.txt
 
 # 2. Laser - formulas
+#./star.sh r O extra/atom.star ../data/stream_1k_1k_1_2.txt
+#./star.sh r O extra/box_w32.star ../data/stream_1k_1k_1_2.txt
+#./star.sh r O extra/diamond_w32.star ../data/stream_1k_1k_1_2.txt
+#./star.sh r O extra/conjunction.star ../data/stream_10_100k_2_2.txt
+
+# ============================================================================
+./star.sh r O extra/problem_w32.star ../data/stream_1k_1k_2_2.txt
 ./star.sh r O extra/atom.star ../data/stream_1k_1k_1_2.txt
 ./star.sh r O extra/box_w32.star ../data/stream_1k_1k_1_2.txt
 ./star.sh r O extra/diamond_w32.star ../data/stream_1k_1k_1_2.txt
 ./star.sh r O extra/conjunction.star ../data/stream_10_100k_2_2.txt
+
+PROGRAM="../cbscenarios-star/deep/100/dependencies/program.star"
+INPUT="../cbscenarios-star/deep/100/data/input.stream"
+
+PARAM="40 5 50 50 0"
+echo "STAR --- $PARAM"
+scripts/cbconvert.sh $PARAM
+./star.sh r R $PROGRAM $INPUT
+
+PARAM="40 5 50 50 100"
+echo "STAR --- $PARAM"
+scripts/cbconvert.sh $PARAM
+./star.sh r R $PROGRAM $INPUT
 

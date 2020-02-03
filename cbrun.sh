@@ -7,12 +7,22 @@
 PROGRAM="../cbscenarios-star/deep/100/dependencies/program.star"
 INPUT="../cbscenarios-star/deep/100/data/input.stream"
 
-PARAM="20 5 100 0 100"
+PARAM="5 2 100 0 0"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
 
-PARAM="20 5 0 100 100"
+PARAM="5 2 0 100 0"
+echo "STAR --- $PARAM"
+scripts/cbconvert.sh $PARAM
+./star.sh r R $PROGRAM $INPUT
+
+PARAM="5 2 100 0 100"
+echo "STAR --- $PARAM"
+scripts/cbconvert.sh $PARAM
+./star.sh r R $PROGRAM $INPUT
+
+PARAM="5 2 0 100 100"
 echo "STAR --- $PARAM"
 scripts/cbconvert.sh $PARAM
 ./star.sh r R $PROGRAM $INPUT
