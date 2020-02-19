@@ -36,6 +36,7 @@ void run(laser::util::ChaseAlgorithm chase_algorithm,
     std::chrono::duration<double, std::milli> clock_elapsed =
         clock_end - clock_start;
     auto total_facts = reasoner.get_total_facts_read();
+    auto total_conclusions = reasoner.get_total_conclusions();
     double total_ms = clock_elapsed.count();
     double throughput = (total_facts * 1.0) / (total_ms / 1000);
     auto runtimes = reasoner.get_runtimes();
@@ -56,6 +57,8 @@ void run(laser::util::ChaseAlgorithm chase_algorithm,
         i++;
     }
     std::cout << "Total Facts: " << total_facts << " in input" << std::endl;
+    std::cout << "Total Conclusions: " << total_conclusions << " in output"
+        << std::endl;
     std::cout << "Time: " << total_ms / 1000 << " seconds" << std::endl;
     //std::cout << "Min Time: " << min_time << " seconds; "
               //<< "timepoint = " << min_i << std::endl;
