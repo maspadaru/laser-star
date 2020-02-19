@@ -56,9 +56,8 @@ void run(laser::util::ChaseAlgorithm chase_algorithm,
         }
         i++;
     }
-    std::cout << "Total Facts: " << total_facts << " in input" << std::endl;
-    std::cout << "Total Conclusions: " << total_conclusions << " in output"
-        << std::endl;
+    std::cout << "Facts: " << total_facts << ", Conclusions: " 
+        << total_conclusions << std::endl;
     std::cout << "Time: " << total_ms / 1000 << " seconds" << std::endl;
     //std::cout << "Min Time: " << min_time << " seconds; "
               //<< "timepoint = " << min_i << std::endl;
@@ -95,9 +94,6 @@ int main(int argc, char **argv) {
     }
     std::string const &rules = read_program(program_path);
 
-    std::cout << std::endl;
-    std::cout << "STAR - Semantic Time-Aware Reasoner powered by LASER++ "
-              << std::endl;
     std::cout << "Program: " << program_path << std::endl;
     std::cout << "Input: " << stream_path << std::endl;
     std::cout << "Chase: " << chase_algorithm_str << std::endl;

@@ -5,19 +5,22 @@
 
 # ============================================================================
 ./star.sh b
+echo ""
+echo "STAR - Semantic Time-Aware Reasoner powered by LASER++ "
+echo ""
 # ============================================================================
 
 # 1. Laser - formulas
-./star.sh r O extra/atom.star ../data/stream_1k_1k_1_2.txt
-./star.sh r O extra/conjunction.star ../data/stream_1k_1k_2_2.txt
-./star.sh r O extra/box_w32.star ../data/stream_1k_1k_1_2.txt
-./star.sh r O extra/diamond_w32.star ../data/stream_1k_1k_1_2.txt
+#./star.sh r O extra/atom.star ../data/stream_1k_1k_1_2.txt
+#./star.sh r O extra/conjunction.star ../data/stream_1k_1k_2_2.txt
+#./star.sh r O extra/diamond_w32.star ../data/stream_1k_1k_1_2.txt
+#./star.sh r O extra/box_w32.star ../data/stream_1k_1k_1_2.txt
 
 # 2 Laser - Laser++ Window Size 
-./star.sh r O extra/problem_w08.star ../data/stream_1k_1k_2_2.txt 
-./star.sh r O extra/problem_w16.star ../data/stream_1k_1k_2_2.txt 
-./star.sh r O extra/problem_w32.star ../data/stream_1k_1k_2_2.txt
-./star.sh r O extra/problem_w64.star ../data/stream_1k_1k_2_2.txt
+#./star.sh r O extra/problem_w08.star ../data/stream_1k_1k_2_2.txt 
+#./star.sh r O extra/problem_w16.star ../data/stream_1k_1k_2_2.txt 
+#./star.sh r O extra/problem_w32.star ../data/stream_1k_1k_2_2.txt
+#./star.sh r O extra/problem_w64.star ../data/stream_1k_1k_2_2.txt
 
 # 3 Laser - Flow rate 
 ./star.sh r O extra/problem_w32.star ../data/stream_10_100_2_2.txt
