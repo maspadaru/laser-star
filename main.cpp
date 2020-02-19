@@ -55,11 +55,12 @@ void run(laser::util::ChaseAlgorithm chase_algorithm,
         }
         i++;
     }
+    std::cout << "Total Facts: " << total_facts << " in input" << std::endl;
     std::cout << "Time: " << total_ms / 1000 << " seconds" << std::endl;
-    std::cout << "Min Time: " << min_time << " seconds; "
-              << "timepoint = " << min_i << std::endl;
-    std::cout << "Max Time: " << max_time << " seconds; "
-              << "timepoint = " << max_i << std::endl;
+    //std::cout << "Min Time: " << min_time << " seconds; "
+              //<< "timepoint = " << min_i << std::endl;
+    //std::cout << "Max Time: " << max_time << " seconds; "
+              //<< "timepoint = " << max_i << std::endl;
     std::cout << "Throughput: " << throughput << " facts / second "
               << std::endl;
     std::cout << "************************************************************"

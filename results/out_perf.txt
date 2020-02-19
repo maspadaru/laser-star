@@ -1,0 +1,83 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mike/work/laser/star/cmake-build-release/star-build
+[100%] Built target star
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: extra/problem_w32.star
+Input: ../data/stream_1k_1k_2_2.txt
+Chase: O
+Time: 29.9975 seconds
+Min Time: 0.0098331 seconds; timepoint = 0
+Max Time: 0.0393096 seconds; timepoint = 200
+Throughput: 33336.1 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: extra/atom.star
+Input: ../data/stream_1k_1k_1_2.txt
+Chase: O
+Time: 2.54029 seconds
+Min Time: 0.00106467 seconds; timepoint = 601
+Max Time: 0.00250217 seconds; timepoint = 288
+Throughput: 393656 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: extra/box_w32.star
+Input: ../data/stream_1k_1k_1_2.txt
+Chase: O
+Time: 4.25818 seconds
+Min Time: 0.00262854 seconds; timepoint = 505
+Max Time: 0.00407023 seconds; timepoint = 52
+Throughput: 234842 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: extra/diamond_w32.star
+Input: ../data/stream_1k_1k_1_2.txt
+Chase: O
+Time: 34.1509 seconds
+Min Time: 0.00222853 seconds; timepoint = 0
+Max Time: 0.0438887 seconds; timepoint = 869
+Throughput: 29281.8 facts / second 
+************************************************************
+
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: extra/conjunction.star
+Input: ../data/stream_10_100k_2_2.txt
+Chase: O
+Time: 6.36046 seconds
+Min Time: 0.480083 seconds; timepoint = 7
+Max Time: 0.633208 seconds; timepoint = 1
+Throughput: 157221 facts / second 
+************************************************************
+
+STAR --- 40 5 50 50 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 67.0148 seconds
+Min Time: 0.790374 seconds; timepoint = 0
+Max Time: 1.94891 seconds; timepoint = 5
+Throughput: 596.883 facts / second 
+************************************************************
+
+STAR --- 40 5 50 50 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Time: 141.272 seconds
+Min Time: 0.798823 seconds; timepoint = 0
+Max Time: 3.89201 seconds; timepoint = 29
+Throughput: 283.141 facts / second 
+************************************************************
+

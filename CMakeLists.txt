@@ -13,6 +13,8 @@ file(GLOB LASER_SOURCES
         "../laser-plus-plus/src/util/*.cpp"
         "../laser-plus-plus/src/rule/*.cpp"
         "../laser-plus-plus/src/rule/filter/*.cpp"
+        "../laser-plus-plus/src/rule/math/*.cpp"
+        "../laser-plus-plus/src/rule/math/evaluator/*.cpp"
         "../laser-plus-plus/src/core/*.cpp"
         "../laser-plus-plus/src/example/*.cpp"
         "../laser-plus-plus/src/service/*.cpp"

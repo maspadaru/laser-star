@@ -1,0 +1,112 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mike/work/laser/star/cmake-build-release/star-build
+[100%] Built target star
+STAR --- 5 2 100 0 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 20183
+Input size: 1000
+Number of Steps: 3
+Total Conclusions: 4070
+Input size: 1000
+Number of Steps: 3
+Total Conclusions: 4070
+Input size: 1000
+Number of Steps: 3
+Total Conclusions: 4070
+Input size: 1000
+Number of Steps: 3
+Total Conclusions: 4070
+Time: 1.56129 seconds
+Min Time: 0.190681 seconds; timepoint = 2
+Max Time: 0.713588 seconds; timepoint = 0
+Throughput: 3202.48 facts / second 
+************************************************************
+
+STAR --- 5 2 0 100 0
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 20348
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 40759
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 61170
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 61233
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 61233
+Time: 7.87829 seconds
+Min Time: 0.720626 seconds; timepoint = 0
+Max Time: 2.0771 seconds; timepoint = 4
+Throughput: 634.655 facts / second 
+************************************************************
+
+STAR --- 5 2 100 0 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 20183
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 19181
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 19181
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 19181
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 19181
+Time: 5.51146 seconds
+Min Time: 0.694686 seconds; timepoint = 0
+Max Time: 1.22525 seconds; timepoint = 4
+Throughput: 907.201 facts / second 
+************************************************************
+
+STAR --- 5 2 0 100 100
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+Program: ../cbscenarios-star/deep/100/dependencies/program.star
+Input: ../cbscenarios-star/deep/100/data/input.stream
+Chase: R
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 20348
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 39892
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 59436
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 58632
+Input size: 1000
+Number of Steps: 12
+Total Conclusions: 58632
+Time: 7.76451 seconds
+Min Time: 0.704743 seconds; timepoint = 0
+Max Time: 2.13634 seconds; timepoint = 4
+Throughput: 643.956 facts / second 
+************************************************************
+
