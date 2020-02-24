@@ -1,3 +1,0 @@
-0 -> jam(0, 1) jam(2, 3) jam(4, 5) stop(0, 1) stop(2, 3) stop(4, 5) warning(0, 1) warning(2, 3) warning(4, 5) 
-1 -> jam(0, 1) jam(2, 3) jam(4, 5) stop(0, 1) stop(2, 3) stop(4, 5) warning(0, 1) warning(2, 3) warning(4, 5) 
-2 -> jam(0, 1) jam(2, 3) jam(4, 5) stop(0, 1) stop(2, 3) stop(4, 5) warning(0, 1) warning(2, 3) warning(4, 5) 

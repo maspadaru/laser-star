@@ -1,0 +1,74 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mike/work/laser/star/cmake-build-release/star-build
+[100%] Built target star
+
+STAR - Semantic Time-Aware Reasoner powered by LASER++ 
+
+============= 1. LARS - formulas =============
+Program: extra/atom.star
+Input: ../data/stream_1k_1k_1_2.txt
+Chase: O
+Facts: 1000000, Conclusions: 1000000
+Time: 1.40359 seconds
+Throughput: 712461 facts / second 
+************************************************************
+
+Program: extra/box_w32.star
+Input: ../data/stream_1k_1k_1_2.txt
+Chase: O
+Facts: 1000000, Conclusions: 1000000
+Time: 2.59626 seconds
+Throughput: 385169 facts / second 
+************************************************************
+
+Program: extra/diamond_w32.star
+Input: ../data/stream_1k_1k_1_2.txt
+Chase: O
+Facts: 1000000, Conclusions: 32472000
+Time: 25.2559 seconds
+Throughput: 39594.7 facts / second 
+************************************************************
+
+Program: extra/conjunction.star
+Input: ../data/stream_1k_1k_2_2.txt
+Chase: O
+Facts: 1000000, Conclusions: 500000
+Time: 1.97285 seconds
+Throughput: 506881 facts / second 
+************************************************************
+
+============= 2. LARS - Math =============
+Program: extra/condition.star
+Input: ../data/stream_100_100_1_2.txt
+Chase: O
+Facts: 10000, Conclusions: 20000
+Time: 8.41417 seconds
+Throughput: 1188.47 facts / second 
+************************************************************
+
+============= XX. Types of programs =============
+Program: extra/problem_w64.star
+Input: ../data/stream_1k_1k_2_2.txt
+Chase: O
+Facts: 1000000, Conclusions: 32460000
+Time: 73.4239 seconds
+Throughput: 13619.5 facts / second 
+************************************************************
+
+Program: extra/traffic_w64.star
+Input: ../data/stream_1k_1k_2_2.txt
+Chase: O
+Facts: 1000000, Conclusions: 32460000
+Time: 21.5682 seconds
+Throughput: 46364.6 facts / second 
+************************************************************
+
+Program: extra/snow_w64.star
+Input: ../data/stream_1k_1k_2_2.txt
+Chase: O
+Facts: 1000000, Conclusions: 500000
+Time: 6.88875 seconds
+Throughput: 145164 facts / second 
+************************************************************
+

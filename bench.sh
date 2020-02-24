@@ -12,12 +12,12 @@ echo ""
 
 echo "============= 1. LARS - formulas ============="
 ./star.sh r O extra/atom.star ../data/stream_1k_1k_1_2.txt
-./star.sh r O extra/conjunction.star ../data/stream_1k_1k_2_2.txt
-./star.sh r O extra/diamond_w32.star ../data/stream_1k_1k_1_2.txt
 ./star.sh r O extra/box_w32.star ../data/stream_1k_1k_1_2.txt
+./star.sh r O extra/diamond_w32.star ../data/stream_1k_1k_1_2.txt
+./star.sh r O extra/conjunction.star ../data/stream_1k_1k_2_2.txt
 
 echo "============= 2. LARS - Math ============="
-./star.sh r O extra/condition.star ../data/stream_1k_1k_1_2.txt
+./star.sh r O extra/condition.star ../data/stream_100_100_1_2.txt
 
  
 #echo "============= 3. LARS - Laser++ Window Size ============="
@@ -34,10 +34,10 @@ echo "============= 2. LARS - Math ============="
 
 # ============================================================================
 
-#echo "============= XX. Types of programs ============="
+echo "============= XX. Types of programs ============="
 ./star.sh r O extra/problem_w64.star ../data/stream_1k_1k_2_2.txt
-./star.sh r O extra/snow_w64.star ../data/stream_1k_1k_2_2.txt
 ./star.sh r O extra/traffic_w64.star ../data/stream_1k_1k_2_2.txt
+./star.sh r O extra/snow_w64.star ../data/stream_1k_1k_2_2.txt
 
 # XX. Misc 
 #./star.sh r O extra/algebra.star ../data/stream_1k_1k_1_2.txt
