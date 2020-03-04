@@ -39,6 +39,11 @@ echo "============= XX. Types of programs ============="
 ./star.sh r O extra/traffic_w64.star ../data/stream_1k_1k_2_2.txt
 ./star.sh r O extra/snow_w64.star ../data/stream_1k_1k_2_2.txt
 
+#./star.sh r O extra/problem_w64.star ../data/stream_100_1k_2_2.txt
+#./star.sh r O extra/traffic_w64.star ../data/stream_100_1k_2_2.txt
+#./star.sh r O extra/snow_w64.star ../data/stream_100_1k_2_2.txt
+#./star.sh r O extra/diamond_w64.star ../data/stream_100_1k_2_2.txt
+
 # XX. Misc 
 #./star.sh r O extra/algebra.star ../data/stream_1k_1k_1_2.txt
 
